@@ -2,7 +2,7 @@ package edu.ucne.jeronycruz_ap2_p1.presentation.navigation
 
 import kotlinx.serialization.Serializable
 
-@Serializable
+
 sealed class Screen{
     @Serializable
     data class Sistema(val Id: Int?): Screen()
