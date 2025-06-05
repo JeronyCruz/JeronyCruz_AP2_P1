@@ -5,7 +5,7 @@ import kotlinx.serialization.Serializable
 
 sealed class Screen{
     @Serializable
-    data class Sistema(val Id: Int?): Screen()
+    data class Tarea(val Id: Int?): Screen()
 
     @Serializable
     data object List: Screen()
